@@ -474,7 +474,7 @@ public class RedisRunner {
         makeRandomDefaultDir();
         
         
-        addConfigOption(REDIS_OPTIONS.DIR, "\"" + defaultDir + "\"");
+        addConfigOption(REDIS_OPTIONS.DIR, defaultDir);
         return this;
     }
 
